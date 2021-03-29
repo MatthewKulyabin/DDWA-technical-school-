@@ -1,36 +1,3 @@
-// const app = Vue.createApp({
-// 	data() {
-// 		return {
-// 			message: 'Hi, Vue',
-// 			title: '',
-// 			list: ['First element', 'Second element', 'Third element'],
-// 		};
-// 	},
-// 	methods: {
-// 		log(item) {
-// 			console.log(item);
-// 		},
-// 		addToList(title) {
-// 			this.list.push(title);
-// 			this.title = '';
-// 		},
-// 	},
-// });
-
-// app.component('new-component', {
-// 	data() {
-// 		return {
-// 			count: 0,
-// 		};
-// 	},
-// 	props: ['title'],
-// 	template: `
-// 		<h4>{{ title }}</h4>
-// 	`,
-// });
-
-// app.mount('#app');
-
 const app = Vue.createApp({});
 
 app.component('laba-1', {
